@@ -129,3 +129,27 @@ i {
 #activities p{
     font-size: x-large;
 }
+#travel{
+    display: block;
+    height: 800px;
+    font-family: Tahoma;
+}
+#travel h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding-left: 300px;
+    padding-right: 500px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+#travel li{
+    font-size: x-large;
+    list-style-type: square;
+    line-height: 3;
+
+}
+#travel h3{
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
