@@ -99,12 +99,13 @@ i {
     background-color: #180c24;
 }
 .forest-suite img{
-    width: 40%;
+    width: 50%;
     float: left;
 }
 .forest-suite p{
     float: right;
     font-size: medium;
+    width: 49%;
 }
 
 #activities{
@@ -152,4 +153,23 @@ i {
     font-weight: bold;
     font-size: xx-large;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+#pictures{
+    display: block;
+    height: 800px;
+}
+#pictures h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding-left: 300px;
+    padding-right: 500px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.gallery{
+    display: inline;
+}
+.gallery img{
+    width:30%;
 }
