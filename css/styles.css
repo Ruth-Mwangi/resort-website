@@ -1,12 +1,14 @@
 body {
    
-    display: block;
+    display: grid;
     color:#f9efe9;
+    background-image: url("../images/b.jpg");
+    width: 100%;
     
 }
 
 .home {
-    background-image: url("../images/b.jpg");
+    
     display: block;
     height: 800px;
     font-family: Tahoma;
@@ -21,6 +23,7 @@ body {
     color: #f9efe9;
     padding-left: 20px;
     padding-right: 20px;
+    position: sticky;
 }
 
 a:hover{
@@ -46,3 +49,55 @@ a:hover{
     padding-right: 500px;
 }
   
+#accomodation {
+    
+    height: fit-content;
+    display: grid;
+   
+}
+#accomodation h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding-left: 300px;
+    padding-right: 500px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.sea-suite{
+    display: inline-block;
+    background-color: #180c24;
+}
+.sea-suite img{
+    width: 50%;
+    float: left;
+}
+.sea-suit p{
+    float: right;
+}
+i {
+    color: blanchedalmond;
+    
+}
+.deluxe-suite{
+    display: inline-block;
+    background-color: #180c24;
+}
+.deluxe-suite img{
+    width: 50%;
+    float: right;
+}
+.deluxe-suite p{
+    float: left;
+    width: 50%;
+}
+.forest-suite{
+    display: inline-block;
+    background-color: #180c24;
+}
+.forest-suite img{
+    width: 40%;
+    float: left;
+}
+.forest-suite p{
+    float: right;
+}
