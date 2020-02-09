@@ -16,14 +16,16 @@ body {
     
 }
 .navbar{
-    background-color: #19292f;
+    
     padding: 20px;
+    position: fixed;
 }
 .navbar a {
     color: #f9efe9;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: sticky;
+    background-color: #19292f;
+    padding-left: 10px;
+    padding-right: 10px;
+   
 }
 
 a:hover{
@@ -73,6 +75,7 @@ a:hover{
 }
 .sea-suit p{
     float: right;
+    font-size: medium;
 }
 i {
     color: blanchedalmond;
@@ -89,6 +92,7 @@ i {
 .deluxe-suite p{
     float: left;
     width: 50%;
+    font-size: medium;
 }
 .forest-suite{
     display: inline-block;
@@ -100,4 +104,28 @@ i {
 }
 .forest-suite p{
     float: right;
+    font-size: medium;
+}
+
+#activities{
+    display: block;
+    height: fit-content;
+    font-family: Tahoma;
+
+}
+#activities h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding-left: 300px;
+    padding-right: 500px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+#activities h3{
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+#activities p{
+    font-size: x-large;
 }
