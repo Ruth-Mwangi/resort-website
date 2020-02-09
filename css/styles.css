@@ -110,7 +110,7 @@ i {
 
 #activities{
     display: block;
-    height: fit-content;
+    height: 800px;
     font-family: Tahoma;
 
 }
@@ -124,11 +124,11 @@ i {
 }
 #activities h3{
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 #activities p{
-    font-size: x-large;
+    font-size: medium;
 }
 #travel{
     display: block;
@@ -157,7 +157,7 @@ i {
 
 #pictures{
     display: block;
-    height: 800px;
+    height: 600px;
 }
 #pictures h1{
     text-align: center;
@@ -172,4 +172,28 @@ i {
 }
 .gallery img{
     width:30%;
+}
+.contact{
+    display: block;
+    height: 200px;
+    background-color: #19292f;
+    color: blanchedalmond;
+
+}
+.contact h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding-left: 300px;
+    padding-right: 500px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.contacts{
+    
+    display: inline-block;
+}
+
+.contacts div{
+    display: inline-block;
+    padding-right: 200px;
 }
