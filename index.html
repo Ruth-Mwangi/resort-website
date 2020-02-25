@@ -4,6 +4,8 @@
         <title>Endor Resort</title>
         <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
         <div class="home" id="home">
@@ -13,9 +15,10 @@
                 <a href="#activities">Activities</a>
                 <a href="#travel">Travel</a>
                 <a href="#pictures">Pictures</a>
+                <a href="#questions">Questions</a>
                 <a href="#contact">Contacts</a>
             </div>
-            <h1>Endor Resort and Spa </h1>
+            <h1>Endor Resort and Spa !!</h1>
             <br><h3>A resort with a forest view and sea view and fun activities!</h3>
         </div>
         <div id="accomodation">
@@ -68,6 +71,21 @@
                 <img src="images/pic1.jpg" alt="">
                 <img src="images/pic3.jpg" alt="">
             </div>
+        </div>
+        <div class="questions" id="questions">
+            <div class="container" id="query">
+                <form >
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="question">Query</label>
+                    <input type="text" name="question" id="question">
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+            <h2 id="story">Hello <span class="name"></span> we have recieved your question and we will reply to you at <span class="email"></span></h2>
+
         </div>
         
         <div class="contact" id="contact">

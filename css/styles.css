@@ -157,7 +157,7 @@ i {
 
 #pictures{
     display: block;
-    height: 600px;
+    height: 800px;
 }
 #pictures h1{
     text-align: center;
@@ -196,4 +196,20 @@ i {
 .contacts div{
     display: inline-block;
     padding-right: 200px;
+}
+.questions{
+    height: 600px;
+    
+}
+form{
+    display: grid;
+}
+#story{
+    display: none;
+}
+.container{
+    margin-top: 100px;
+}
+button{
+    margin: auto;
 }
